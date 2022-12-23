@@ -1,8 +1,8 @@
-print("syntax is num operator num)
+print("syntax is num operator num")
 
 
 a=int(input())
-x=input("Chose operand + - * / %)
+x=input("Chose operand + - * / %")
 b=int(input())
 match x:
   case '+': print(a+b)
@@ -10,6 +10,6 @@ match x:
   case "*": print(a*b)
   case "/": print(a/b)
   case "%": print(a%b)
-  case_ : print("invalid")
+  case _ : print("invalid")
   
   
